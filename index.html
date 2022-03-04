@@ -30,6 +30,33 @@ img{
 .aligncenter {
     text-align: center;
 }
+    body{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat";
+  background-image: linear-gradient(125deg,#667eea,#ff9a9e,#764ba2,#c2e9fb);  background-size: 400%;
+  animation: bganimation 15s infinite;
+}
+
+.text{
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 400px 0;
+  font-size: 22px;
+}
+
+@keyframes bganimation {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
 </style>
     
     <!-- Custom styles for this template -->
@@ -41,7 +68,7 @@ img{
   <header class="mb-auto">
     <div>
      <br>
-      <nav class="nav nav-masthead justify-content-center float-md-end">
+      <nav class="nav navbar-dark nav-masthead justify-content-center float-md-end">
         <a class="nav-link active" aria-current="page" href="https://code-akash23q2.vercel.app/">Home</a>
         <a class="nav-link" href="/hellofun.html">Navigate</a>
         <a class="nav-link" href="/phone.html">Contact</a>
@@ -59,12 +86,12 @@ img{
     <br>
     <br>
     <div>
-    <p class="lead">To one of the biggest car parts wholseller shop in Robertsganj, where you can find almost every parts for your car at fair prices...</p></div><br>
+    <p class="lead"><b></b>To one of the biggest car parts wholseller shop in Robertsganj, where you can find almost every parts for your car at fair prices.</b></p></div><br>
     
     
     <div>
     <p class="lead">
-      <a href="/animated_doggy.html" class="btn btn-lg btn-secondary fw-bold border-white bg-white">more info</a>
+      <a href="/animated_doggy.html" class="btn btn-primary">more info</a>
     </p>
     </div>
   </main>
